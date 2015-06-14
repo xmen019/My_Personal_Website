@@ -1,0 +1,460 @@
+/* ==== Slides ==== */
+#eduAmination{
+    margin-top: 50px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 600px; 
+    position: relative;
+}
+.carousel-inner > .item > img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-width: 100%;
+   min-height: 600px;
+}
+.carousel-caption{
+    color:black !important;
+    text-shadow: 1px 1px white !important;
+}
+.carousel-caption p{
+    font-size: 24px !important;
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 600px;
+}
+.carousel-indicators li{
+    border: none !important;
+    background: #a88b1b !important;
+}
+.carousel-indicators .active{
+    background: #5cb85c !important;
+}
+.carousel-indicators li:hover{
+    background: #5cb85c !important;
+}
+
+.transition-timer-carousel-progress-bar {
+    height: 6px;
+    background-color: #5cb85c;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    z-index: 11;
+    position: absolute;
+}
+
+/* ==== ACG ==== */
+#acg{
+    padding: 60px 0 80px 0;
+    text-align: center;
+    color: #ccc;
+    background: #3e4249;
+}
+
+#acg h3, #acg h2{
+    color: white;
+}
+#acg .section-header{
+    margin-top: 25px;
+}
+#acg img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#acg span img{
+    height: auto;
+    width: auto;
+}
+#acg .subjects p{
+    text-align: left;
+    margin-left: 45%;
+}
+
+/* ==== University of Auckland ==== */
+#uni{
+    padding: 60px 0 80px 0;
+    min-height: 1100px;
+    background: url(../Img/education/bg.jpg) 0% 80% fixed ;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+#uni .mask, #uni .content{
+    content="";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background:rgba(255,255,255,0.3); 
+    overflow: hidden;
+  
+}
+#uni .section-header {
+   position: relative;
+    margin-top: 60px;
+}
+#uni .section-header img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#uni .container{
+    margin-top: 15px;
+}
+#uni span img{
+    height: auto;
+    width: auto;
+}
+#uni h4{
+    background: #a88b1b;
+    padding: 5px 0 ;
+    border-radius: 5px;
+}
+#uni button{
+    background:none;
+    width: 60%;
+    margin-left: 65px;
+    border: 5px solid #24a82f;
+    border-radius: 60px;
+    color:#151313;
+    transition: all 0.5s ease;
+    margin-top: 15px;
+}
+#uni button:hover{
+   
+    border-radius: 0px;
+    transition: all 0.5s ease;
+}
+#uni .col-sm-4 .elements p{
+    text-align: left;
+}
+#uni .col-sm-4 .ball{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+#uni .view{
+    width: 100%;
+    height: 450px;
+}
+#uni .images{
+    position: relative;
+    float: left;
+}
+#uni .view img{
+    height: 450px;
+    width:100%;
+    border-radius: 0;
+    border: 8px solid #ccc;
+}
+
+#uni .sub-mask, #uni .sub-content{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0; 
+    opacity: 0;
+}
+#uni .sub-content{
+    margin-top: 50px;
+}
+#uni .view:hover .sub-mask{
+    opacity: 1;
+}
+#uni .view:hover .sub-content{
+    opacity: 1;
+}
+#uni .ex p{
+    margin-left: 20px;
+}
+
+/* ==== Microsoft1 And Microsoft1==== */
+#micro1, #micro2{
+    padding: 60px 0 80px 0;
+    text-align: center; 
+}
+
+#micro1{
+    background: white;
+}
+#micro2{
+    background:red;
+    background: transparent url("../img/hexagon.png") repeat scroll 0% 0%;
+}
+#micro1 .firstLine, #micro2 .firstLine{
+    font-style: italic;
+}
+#micro1 img, #micro2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+#micro1 .container, #micro2 .container{
+    margin-top: 40px;
+}
+#micro1 .content, #micro2 .content{
+    padding-top: 20px;
+}
+#micro1 h3, #micro2 h3{
+    padding: 5px 0;
+    border-radius: 5px;
+}
+#micro1 h3{
+    background: #b5d801;
+}
+#micro2 h3{
+    background:#997aae;
+}
+#micro1 .col-sm-4 p, #micro1 h4, #micro2 .col-sm-4 p, #micro2 h4{
+    text-align: left;   
+}
+#micro1 .col-sm-4 p, h4,#micro2 .col-sm-4 p, h4 {
+    margin-left: 20px;
+}
+#micro1 .col-sm-4 img, #micro2 .col-sm-4 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+#micro1 .skills img, #micro2 .skills img{
+    height: auto;
+    width: auto;
+}
+#micro1 .view, #micro2 .view{
+    height: 380px;
+}
+#micro1 .view .content, #micro2 .view .content, #uni .view .sub-content{
+    color: white;
+}
+#micro1 .view img, #micro2 .view img{
+    height: 380px;
+    width:100%;
+    border-radius: 0;
+    border: 8px solid #ccc;
+}
+#micro1 .mask, #micro2 .mask, #uni .sub-mask{
+    background-color: rgba(115,146,184, 0.7);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#micro1 .mask, #micro2 .mask{
+    height: 380px;
+}
+#micro1 .view h3, #micro2 .view h3, #uni .view h3{
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: none;
+    padding-bottom: 10px;
+    background: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+#micro1 .view:hover h3,
+#micro2 .view:hover h3,
+#uni .view:hover h3
+{
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   opacity: 1;
+   -webkit-transform: translateY(20px);
+   -moz-transform: translateY(20px);
+   -o-transform: translateY(20px);
+   -ms-transform: translateY(20px);
+   transform: translateY(20px);
+}
+#micro1 .view p, #micro2 .view p, #uni .view p{
+    -webkit-transform: translateY(120px);
+    -moz-transform: translateY(120px);
+    -o-transform: translateY(120px);
+    -ms-transform: translateY(120px);
+    transform: translateY(120px);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+#micro1 .view:hover p,
+#micro2 .view:hover p,
+#uni .view:hover p{
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    -moz-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition-delay: 0.1s;
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+#micro1 .view:hover img,
+#micro2 .view:hover img,
+#uni .view:hover img{
+   -webkit-transform: scale(1.1,1.1);
+   -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1);
+}
+#micro1 .view #single2, #micro2 .view #single3, #uni .view #single1{
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: black;
+    color: #ccc;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color:#fff;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
+    margin-top: 40px;
+}
+#micro1 .view:hover #single2,
+#micro2 .view:hover #single3,
+#uni .view:hover #single1 {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   opacity: 1;
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+   -webkit-transition-delay: 0.5s;
+   -moz-transition-delay: 0.5s;
+   -o-transition-delay: 0.5s;
+   -ms-transition-delay: 0.5s;
+   transition-delay: 0.5s;
+}
+
+/* ==== Mdeia Queries ==== */
+@media screen and (max-width: 991px){
+    #acg .subjects p{
+        margin-left: 42%;
+    }
+    #uni{
+        min-height: 1200px;
+    }
+    #uni button{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #micro1 .col-sm-4 p, h4,#micro2 .col-sm-4 p, h4 {
+        margin-left: 0px;
+    }
+    #micro1 .view, #micro2 .view, #uni .view{
+       margin-top: 0px;
+    }
+   
+}
+@media screen and (max-width: 768px){
+    #acg .subjects p{
+        margin-left: 40%;
+    }
+    #uni .t1{
+        margin-top: 10px;
+    }
+    #uni .t2{
+        margin-top: -20px
+    }
+    #uni{
+        min-height: 2250px;
+    }
+     #uni button{
+        width: 40%;
+        margin-left: 180px;
+    }
+     #uni button{
+        width: 50%;
+        margin-left: 140px;
+    }
+    #uni .ex, #uni .cert{
+        margin-top: 65px;
+    }
+    #uni .col-sm-4 .e1 p{
+        margin-left: 37%;
+    }
+    #uni .col-sm-4 .e2 p{
+        margin-left: 13%;
+    }   
+    #micro1 .cert, #micro1 .co, #micro2 .cert, #micr2 .co{
+        margin-top: 50px; 
+    }
+    #micro1 .images, #micro2 .images, #uni .view{
+        width:50%;
+        margin-left: 25%
+    }
+     #micro1 .view, #micro2 .view, #uni .view{
+        margin-top: 5px ;
+    }
+}
+@media screen and (max-width: 568px){
+    #uni{
+        min-height: 2450px;
+    }
+    .carousel-inner{
+        height: 300px;  
+    }
+    .carousel-inner > .item > img{
+        min-height: 300px;
+    }
+    #acg .subjects p{
+        margin-left: 35%;
+    }
+    #uni button{
+        width: 70%;
+        margin-left: 50px;
+    }
+   
+    
+    #uni .col-sm-4 .e1 p{
+        margin-left: 23%;
+    }
+    #uni .col-sm-4 .e2 p{
+        margin-left: 5%;
+    }
+  
+    #micro1 .images, #micro2 .images, #uni .view{
+        width:90%;
+        margin-left: 5%;
+    }
+    #uni .view{
+        height: 400px
+    }
+}

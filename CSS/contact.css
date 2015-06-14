@@ -1,0 +1,155 @@
+/* ==== Slides ==== */
+#contactAnimate{
+    margin-top: 50px;
+}
+.carousel-inner{
+    width: 100%;
+    height: 600px; 
+    position: relative;
+}
+.carousel-inner .item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 600px;
+}
+.carousel-indicators li{
+    border: none !important;
+    background: #a88b1b!important;
+}
+.carousel-indicators .active{
+    background: #5cb85c !important;
+}
+.carousel-indicators li:hover{
+    background: #5cb85c !important;
+}
+.transition-timer-carousel-progress-bar{
+    height: 6px;
+    width: 100%;
+    background-color: #5cb85c;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    z-index: 11;
+    position: absolute;
+}
+/* ==== Contact Form ==== */
+#contactForm{
+    padding: 60px 0 80px 0;
+    text-align: center;
+}
+#contactForm .name, #contactForm .email{
+    width: 48%;
+    position: relative;
+    float: left;
+}
+#contactForm .subject{
+    width: 48%;
+}
+#contactForm .email{
+    margin-left: 4%;
+}
+#contactForm #submitB,#contactForm .question{
+    width: 28%;
+    position: relative;
+    float: left;
+}
+#contactForm #submitB{
+    margin-left: 40%;
+    margin-top: 25px;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+}
+#contactForm #submitB:hover{
+    border-radius: 0px;
+}
+#contactForm span{
+    margin-right: 15px;
+}
+#contactForm .details{
+    position: relative;
+    float: left;
+    margin-left: 30%;   
+}
+
+#contactForm .info{
+    position: relative;
+    float: left;
+}
+#contactForm span #s_email{
+    height: 20px;
+    width: 30px;
+}
+ #contactForm span #s_phone{ 
+    height: 30px;
+    width: 30px;
+ }
+#contactForm .col-sm-5 p{
+   margin-top: 15px;
+}
+#contactForm a{
+    color: #22c4ac;
+}
+#contactForm a:hover{
+   color: #a88b1b;
+}
+#contactForm .yourVote{
+    position: relative;
+    float: left;
+    margin-left: 30%;
+    margin-top: 15px;
+	text-align: left;
+}
+#contactForm  .vote img{
+	position: relative;
+	
+	
+}
+/* ==== Reference ==== */
+#reference{
+    padding: 60px 0 80px 0;
+    text-align: center;
+    color: #ccc;
+    background: #3e4249;
+}
+#reference h3{
+    color:white;
+}
+#reference a{
+    color: #22c4ac;
+}
+#reference a:hover{
+   color: #a88b1b;
+} 
+#map #mapholder{
+    width: 100%;
+    height: 350px;
+}
+
+/* ==== Mdeia Queries ==== */
+
+/* ==== Mdeia Queries ==== */
+@media screen and (max-width: 991px){
+    #contactForm .details{
+        margin-left: 20% ;
+    }
+}
+@media screen and (max-width: 768px){
+    #contactForm .details{
+        margin: 30px 0 0 10%;
+    }
+}
+@media screen and (max-width: 658px){
+  
+}
+@media screen and (max-width: 568px){
+    .carousel-inner{
+        height: 300px;  
+    }
+    .carousel-inner > .item > img{
+        min-height: 300px;
+    }
+     #contactForm .details{
+       margin-left: 25%;
+    }
+}
